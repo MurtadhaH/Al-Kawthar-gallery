@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>معرض الكوثر - لعرض التصاميم والديكورات</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>معرض الكوثر</h1>
+            <img src="favicon.ico" alt="شعار المعرض">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#gallery">المعرض</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>مرحبًا بكم في معرض الكوثر</h2>
+                <p>منصة لعرض أحدث التصاميم والأعمال الفنية المتميزة</p>
+                <a href="#gallery" class="btn">استكشف المعرض</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">معرض الأعمال</h2>
+            <div class="filter-buttons">
+                <button class="active" data-filter="all">الكل</button>
+                <button data-filter="design">تصاميم</button>
+                <button data-filter="art">أعمال فنية</button>
+                <button data-filter="photo">صور</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="design">
+                    <img src="https://source.unsplash.com/random/600x400/?design" alt="تصميم 1">
+                    <div class="overlay">
+                        <h3>تصميم داخلي</h3>
+                        <p>وصف قصير للتصميم</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="art">
+                    <img src="https://source.unsplash.com/random/600x400/?art" alt="عمل فني 1">
+                    <div class="overlay">
+                        <h3>لوحة فنية</h3>
+                        <p>وصف قصير للعمل الفني</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="photo">
+                    <img src="https://source.unsplash.com/random/600x400/?photography" alt="صورة 1">
+                    <div class="overlay">
+                        <h3>تصوير فوتوغرافي</h3>
+                        <p>وصف قصير للصورة</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="design">
+                    <img src="https://source.unsplash.com/random/600x400/?interior" alt="تصميم 2">
+                    <div class="overlay">
+                        <h3>تصميم داخلي</h3>
+                        <p>وصف قصير للتصميم</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="art">
+                    <img src="https://source.unsplash.com/random/600x400/?painting" alt="عمل فني 2">
+                    <div class="overlay">
+                        <h3>رسم زيتي</h3>
+                        <p>وصف قصير للعمل الفني</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="photo">
+                    <img src="https://source.unsplash.com/random/600x400/?nature" alt="صورة 2">
+                    <div class="overlay">
+                        <h3>طبيعة</h3>
+                        <p>وصف قصير للصورة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">من نحن</h2>
+                <p>معرض الكوثر هو منصة لعرض التصاميم المبتكرة والأعمال الفنية المتميزة. نهدف إلى إبراز الجمال والإبداع في مختلف المجالات الفنية والتصميمية.</p>
+                <p>تأسس المعرض عام 2023 بهدف نشر الثقافة الفنية ودعم المواهب المحلية في مجال التصميم والفنون.</p>
+                <a href="#contact" class="btn">تواصل معنا</a>
+            </div>
+            <div class="about-image">
+                <img src="https://source.unsplash.com/random/600x400/?gallery" alt="عن المعرض">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>تصميم داخلي</h3>
+                    <p>تصميم ديكورات داخلية مبتكرة تناسب جميع الأذواق والمساحات</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>أعمال فنية</h3>
+                    <p>إبداعات فنية فريدة من لوحات ومنحوتات وتركيبات فنية</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>تصوير فوتوغرافي</h3>
+                    <p>جلسات تصوير احترافية للمناسبات والأعمال الفنية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>عنوان المعرض: المدينة، الحي، الشارع</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>الهاتف: +966 12 345 6789</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>البريد الإلكتروني: info@alkawthar.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="الموضوع">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="الرسالة" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">إرسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>معرض الكوثر</h2>
+                <p>منصة لعرض التصاميم والأعمال الفنية المتميزة</p>
+            </div>
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#gallery">المعرض</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <h3>اشترك في نشرتنا</h3>
+                <form>
+                    <input type="email" placeholder="بريدك الإلكتروني">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 معرض الكوثر. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
